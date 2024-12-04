@@ -19,12 +19,13 @@ body, html {
 
 .add-page {
 	width: 100%;
-	min-height: 50vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	position: relative; 
+	position: relative;
+	margin: 0; /* Consistent vertical spacing between sections */
+	padding: 1rem 0; /* Ensure padding inside sections */
 }
 
 #homepage {
@@ -178,7 +179,6 @@ body, html {
 	background-color: white;
 	z-index: 2;
 	width: 100%;
-	min-height: 50vh;
 	box-sizing: border-box;
 }  
 
@@ -206,7 +206,7 @@ body.main-container::-webkit-scrollbar-thumb:hover {
   font-family: 'Inter';
   font-weight: 500;
   text-align: center;
-  margin: 2rem 0;
+  margin: 2rem 0; /* Equal spacing above and below titles */
   color: #000000;
 }
 
@@ -218,11 +218,8 @@ body.main-container::-webkit-scrollbar-thumb:hover {
 .grid-container {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 2rem; 
-	grid-auto-rows: 1fr;
+	grid-gap: 0.5rem; /* Keep smaller gaps between projects */
 	width: 100%;
-	grid-row-gap: .3rem;
-	grid-column-gap: .3rem;
 }
 
 .grid-item {
@@ -373,12 +370,9 @@ body.main-container::-webkit-scrollbar-thumb:hover {
   .grid-container {
     grid-template-columns: 1fr;  
   }
-}
 
-@media (max-width: 900px) {
-  #secondaryPage {
-    height: auto;
-    min-height: 100vh;
+  .add-page {
+    margin: 2rem 0; /* Adjust vertical spacing for smaller screens */
   }
 }
 
@@ -423,4 +417,3 @@ body.main-container::-webkit-scrollbar-thumb:hover {
 		font-size: 0.8rem;
 	}  
 }
-
