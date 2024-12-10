@@ -147,13 +147,22 @@ body, html {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    margin-bottom: 40px;
+}
+
+#publication-main {
+    display: flex; /* Ensures a flexbox layout */
+    justify-content: center; /* Horizontally centers content */
+    align-items: center; /* Vertically centers content */
+    width: 100%; /* Ensures the container spans the full width */
+    box-sizing: border-box; /* Ensures padding doesn't affect size */
 }
 
 #publication-main video {
     max-width: 80%;
     height: auto;
-    margin: auto;
-    cursor: zoom-in;
+    margin: 0 auto;
+    display: block; /* Ensures the video behaves as a block-level element */
 }
 
 /* Highlights Section */
