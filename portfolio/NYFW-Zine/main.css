@@ -156,6 +156,7 @@ body, html {
     align-items: center; /* Vertically centers content */
     width: 100%; /* Ensures the container spans the full width */
     box-sizing: border-box; /* Ensures padding doesn't affect size */
+    cursor: zoom-in;
 }
 
 #publication-main video {
