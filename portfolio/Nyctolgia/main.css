@@ -185,7 +185,6 @@ body.main-container::-webkit-scrollbar-thumb:hover {
 .description {
     font-family: 'Inter';
     font-weight: 300;
-    font-size: 1.3rem;
     flex: 2;
     font-size: 1em;
 }

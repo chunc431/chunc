@@ -136,8 +136,8 @@ body, html {
 .description {
     font-family: 'Inter';
     font-weight: 300;
-    font-size: 1.3rem;
     flex: 2;
+    font-size: 1em; 
 }
 
 /* Publication Section */
@@ -172,7 +172,7 @@ body, html {
 }
 
 #publication-highlights img {
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
     transition: transform 0.5s ease;
     cursor: zoom-in;
