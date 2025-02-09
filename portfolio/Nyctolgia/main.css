@@ -300,6 +300,7 @@ body.main-container::-webkit-scrollbar-thumb:hover {
 }
 
 .additional-images img {
+    cursor: zoom-in;
     width: auto; 
     height: auto; 
     max-width: 100%; 
